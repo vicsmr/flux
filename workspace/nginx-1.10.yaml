@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-1.10
+  namespace: flux
 spec:
   replicas: 3
   selector:
